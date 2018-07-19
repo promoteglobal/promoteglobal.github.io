@@ -1,0 +1,57 @@
+.wholecard {
+  border-width: .25px;
+  border-color: rgba(128,128,128,0.25);
+  border-style: solid;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 1%;
+  padding-right: 1%;
+  box-shadow: 10px 10px 10px rgba(128,128,128,0.25);
+  width: 315px;
+  height: 585px;
+}
+h3 {
+  margin-left: 5px;
+}
+.image {
+  margin-left: auto;
+  margin-right: auto;
+  width:300px;
+  height:150px;
+}
+.animal-info {
+  border: .25px solid rgba(128,128,128,0.25);
+  width: 276px;
+  height: 340px;
+  margin-bottom: 5%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 4%;
+  padding-right: 4%;
+}
+.intfact {
+	font-style: italic;
+}
+li{ 
+	list-style-type: none;
+	margin-left: -2.5em; 
+} 
+span {
+	font-weight: bold;
+}
+/*width = "300" Note* I went ahead and changed the width with irfanview so the picture isn't squished and has the least amount of data loss. Original properties=1280 X 640 Size 
+  136 KB */
+
+/* border-color: #AAA; This was my original color but because the demo picture boarder looks skinner and knowing the max min width is 1px, I decided to attempt the illusion
+  of a skinner boarder by picking a light gray and adding transparency to it.  To try and create a balance between time, my other attempt would be to take a image made for border
+  like qualities and see if a skinner line is possible than 1px.  I have a feeling the demo photo itself got transformed when placed as a photo and then displayed onto my screen.
+  /*Update: I forgot the px..It is now skinner*/
+
+/* box-shadow: 10px 10px 10px #AAA; Some idea here, This was the original color, but tried to imitate exactly what I saw in the demo, but knowing that the original color in the 
+   demo could be slightly darker to begin with.*/
+
+/* border-color: #AAA; I needed to stay consistent with the color, so I stayed consistent.*/
+
+/* I didn't add radius or background colors because I read the rubric at the end.  I imagined it just like a real card in real life among other animal cards. I imaged that cards like this don't normally have rounded corners. */
+
+
